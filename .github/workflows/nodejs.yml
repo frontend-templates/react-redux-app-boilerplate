@@ -19,7 +19,7 @@ jobs:
         yarn install
         yarn lint
         yarn build
-        yarn test --coverage
+        yarn test
       env:
         CI: true
     - name: Coveralls GitHub Action
